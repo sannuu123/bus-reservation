@@ -1,0 +1,9 @@
+<p>canclebus works!</p>
+<form #deletebusForm="ngForm" (ngSubmit)="deletebooking(deletebusForm)">
+    <div><table>
+        <tr>
+            <td>CustomerId</td><td> <input type="text" name="custId" ngModel> </td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Cancle Book"></td>
+            </tr>

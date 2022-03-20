@@ -1,0 +1,27 @@
+<p>newbus works!</p>
+
+<form #busForm="ngForm" (ngSubmit)="searchbus(busForm)">
+    <table>
+        <tr>
+            <td>ToFrom</td><td> <input type="text" name="tofrom" ngModel> </td>
+        </tr>
+        <tr>
+            <td>FromTo</td><td> <input type="text" name="fromto" ngModel> </td>
+        </tr>
+        <tr>
+            <td>bus Type</td><td> <select name="type" ngModel>
+                        <option value="banglore">banglore</option>
+                        <option value="Hydrabad">Hydrabad</option>
+                        <option value="26MAR22">26MAR22</option>
+            </select> </td>
+        </tr>
+        <tr>
+            <td>DateOfJourney</td><td> <input type="text" name="journeydate" ngModel> </td>
+        </tr>
+        <tr>
+            <td><input type="reset" value="RESET"></td>
+            <td> <input type="submit" value="SAVE"> </td>
+        </tr>
+    </table>
+</form>
+

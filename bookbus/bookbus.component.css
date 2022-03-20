@@ -1,0 +1,36 @@
+
+    table{
+        margin: auto;
+        text-align: center;
+    }
+   
+    *,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    --primary-color:#e74c3c;
+    --secondary-color:#222;
+    --tertiary-color:#333;
+    --light-color: #fff;
+    scroll-behavior: smooth; 
+}
+
+body {
+    background-color: gainsboro;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    color: var(--light-color);
+    line-height: 1.6;
+}
+
+td,tr{
+    margin: 0;
+    border: 1px solid white;
+    text-align: left;
+    padding:8px;
+}
